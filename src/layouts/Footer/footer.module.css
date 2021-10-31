@@ -1,4 +1,4 @@
-.footer{
+.footer {
   align-items: center;
   background-color: var(--accentColor);
   color: var(--copyLightColor);
@@ -7,10 +7,8 @@
   padding: 1.5rem;
 }
 
-
-@media(max-width: 768px){
-  .footer
-  {
+@media (max-width: 768px) {
+  .footer {
     flex-direction: column;
   }
 }

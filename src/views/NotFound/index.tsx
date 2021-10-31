@@ -9,15 +9,12 @@ const NotFound = () => {
       <Empty
         header="No Team feedback to display 🔮"
         body="There is no feedback to display at this time - check back in a bit!"
-        buttonText='Back to  Share Feedback'
+        buttonText="Back to  Share Feedback"
         onButtonClick={() => history.push('/share-feedback')}
         data-testid="empty"
       />
-
-  </div>
-
-)
-
+    </div>
+  )
 }
 
 export default NotFound

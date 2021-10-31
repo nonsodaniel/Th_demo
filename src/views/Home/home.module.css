@@ -29,6 +29,7 @@
   background-image: url(./background.png);
   background-size: cover;
 }
-.user_select{
+.user_select {
   width: 10rem;
+  padding-top: 0.5rem;
 }

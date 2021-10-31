@@ -7,7 +7,9 @@ type Props = {
 }
 
 const Content = ({ children }: Props) => (
-  <div className={classnames(styles.content)} data-testid="content">{children}</div>
+  <div className={classnames(styles.content)} data-testid="content">
+    {children}
+  </div>
 )
 
 export default Content

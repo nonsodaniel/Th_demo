@@ -3,14 +3,13 @@
   margin-right: auto;
   max-width: 850px;
 }
-.feedback-form .goBack{
+.feedback-form .goBack {
   cursor: pointer;
 }
 .feedback-form .question-response-section {
   padding: 2rem;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
 }
-
 
 .feedback-form .desc_photo {
   display: flex;
@@ -26,20 +25,19 @@
 }
 .feedback-form .desc_photo p {
   font-size: 15px;
-  color: #ACB1B6;
+  color: #acb1b6;
   font-weight: 400;
 }
 .feedback-form .photo {
   height: 4rem;
-  width: 4rem; 
+  width: 4rem;
 }
 .feedback-form .photo img {
   height: 100%;
   width: 100%;
   border-radius: 50%;
-object-fit: cover;
+  object-fit: cover;
 }
-
 
 .feedback-form .list {
   background: #f2f3f4;
@@ -113,7 +111,7 @@ object-fit: cover;
   height: 310px;
 }
 
-.feedback-form .fa-flag{
+.feedback-form .fa-flag {
   font-size: 25px;
 }
 
@@ -135,11 +133,11 @@ object-fit: cover;
   bottom: 150%;
   left: 50%;
   margin-left: -80px;
-  background: #59636E;
+  background: #59636e;
 }
 
 .feedback-form .tooltip .tooltiptext::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 100%;
   left: 50%;
@@ -155,16 +153,19 @@ object-fit: cover;
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
-.feedback-form .feedback-form  .tooltip:hover .tooltiptext {
+.feedback-form .feedback-form .tooltip:hover .tooltiptext {
   visibility: visible;
 }
 
-.rating_area{
+.rating_area {
   height: 100%;
   display: grid;
   place-items: center;
 }
-
+progress::-webkit-progress-value {
+  background-color: #1DDEBB;
+  border-radius: 7px;
+}
 
 @media (max-width: 840px) {
   .feedback-form .paginate {

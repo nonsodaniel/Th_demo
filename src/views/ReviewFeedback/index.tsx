@@ -19,13 +19,24 @@ const ReviewFeedback = () => {
         <div className={styles.feedbackContainer} data-testid="wrapper">
           <ul className={styles.users}>
             {feedbacks.map((feedback, index) => (
-              <li className={classNames(index === activeFeedbackTab ? styles.activeUserTab : '')} key={feedback.feedbackTo.id} onClick={() => setActiveFeedbackTab(index)}>
+              <li
+                className={classNames(
+                  index === activeFeedbackTab ? styles.activeUserTab : '',
+                )}
+                key={feedback.feedbackTo.id}
+                onClick={() => setActiveFeedbackTab(index)}
+              >
                 <User {...feedback.feedbackTo} />
               </li>
             ))}
           </ul>
           {feedbacks.map((feedback, index) => (
-            <ul className={classNames(styles.feedback, index === activeFeedbackTab ? styles.feedbackActive : '')}>
+            <ul
+              className={classNames(
+                styles.feedback,
+                index === activeFeedbackTab ? styles.feedbackActive : '',
+              )}
+            >
               <li>
                 <h3> {feedback.feedbackTo.name}'s Feedback</h3>
               </li>
@@ -37,25 +48,24 @@ const ReviewFeedback = () => {
                     </div>
                     <div className="answer">
                       <p>
-                        {
-                          answer ? (
-                            <>
-                              {
-                                typeof answer === 'number' ? (
-                                  <Rating
-                                    placeholderSymbol={styles.rating}
-                                    className={styles.rating}
-                                    start={1} stop={10}
-                                    initialRating={answer} readonly />
-                                ) : (
-                                    <span>{answer}</span>
-                                  )
-                              }
-                            </>
-                          ) : (
-                              <span className={styles.skipped}>SKIPPED</span>
-                            )
-                        }
+                        {answer ? (
+                          <>
+                            {typeof answer === 'number' ? (
+                              <Rating
+                                placeholderSymbol={styles.rating}
+                                className={styles.rating}
+                                start={1}
+                                stop={10}
+                                initialRating={answer}
+                                readonly
+                              />
+                            ) : (
+                              <span>{answer}</span>
+                            )}
+                          </>
+                        ) : (
+                          <span className={styles.skipped}>SKIPPED</span>
+                        )}
                       </p>
                     </div>
                   </li>
@@ -65,11 +75,11 @@ const ReviewFeedback = () => {
           ))}
         </div>
       ) : (
-          <Empty
-            header="No feedback to display 🔮"
-            body="There is no feedback to display at this time - check back in a bit!"
-          />
-        )}
+        <Empty
+          header="No feedback to display 🔮"
+          body="There is no feedback to display at this time - check back in a bit!"
+        />
+      )}
     </MainLayout>
   )
 }

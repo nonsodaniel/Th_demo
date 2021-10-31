@@ -15,9 +15,8 @@ const ScaleResponse: React.FC<ScaleResponseProps> = ({
   return (
     <div className="response-area">
       <div className="rating_area">
-      <Rating start={1} stop={10} initialRating={value} onChange={onChange} />
+        <Rating start={1} stop={10} initialRating={value} onChange={onChange} />
       </div>
-
     </div>
   )
 }

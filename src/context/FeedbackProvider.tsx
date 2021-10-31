@@ -40,7 +40,6 @@ const reducer = (
 
 const UIProvider = ({ children }: { children: React.ReactNode }): any => {
   const [state, dispatch] = React.useReducer(reducer, [])
-  console.log('feedback loaded', { state, dispatch })
   return (
     <DispatchFeedbackContext.Provider value={dispatch}>
       <FeedbackContext.Provider value={state}>

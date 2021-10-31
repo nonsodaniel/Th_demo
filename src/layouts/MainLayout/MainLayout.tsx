@@ -23,6 +23,4 @@ const MainLayout = ({ children, loggedIn, className }: Props) => (
     {loggedIn && <Footer />}
   </div>
 )
-
-
 export default MainLayout
