@@ -162,6 +162,10 @@
   display: grid;
   place-items: center;
 }
+progress::-webkit-progress-value {
+  background-color: #1DDEBB;
+  border-radius: 7px;
+}
 
 @media (max-width: 840px) {
   .feedback-form .paginate {

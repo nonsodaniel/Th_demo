@@ -1,3 +1,6 @@
+
+ [Live Link](https://th-demo.vercel.app/)
+
 # About my Task
 
 As stated in the Readme of this project, Honesto is an application allowing peers to leave feedback for other team members. The 3 major features of this application is to Gather Feedback, Display the Feedback given and Display the received Feedback.
@@ -39,6 +42,33 @@ As stated in the Readme of this project, Honesto is an application allowing peer
 # Correction Regarding the video demo
 
 I just noticed I made a mistake at the ending part of the video. Just to clarify it, the **Teams** tabs lists the available users yet be given feedback and not all users/team members.
+
+
+# What could be done to improve the current implementation?
+
+* Dark Mode implementation
+
+* Switching to Google Authentication to allow users login with their personal details
+
+* Persisting data in database to avoid loss of data after refresh
+
+* Increasing color brightness to improve accessibility
+
+* Implementation of more test cases
+
+* Implementation of Offline feedback creation
+
+
+# Challenges faced
+
+* In the early stage, I encountered some challenges working with EsLint Prettier rules without the prettier extension
+
+* Working with a short period of time because I couldn't start on the expected date due to some emergency situation. **Thankful for the time expansion.**
+
+* Some style properties in the figma design board wasn't accessible
+
+
+
 
 # Honesto - Frontend Practical Exercise
 

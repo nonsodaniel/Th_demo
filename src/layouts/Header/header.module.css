@@ -72,6 +72,10 @@
   align-items: center;
   justify-content: center;
 }
+.cycle_days span{
+  color: #1DDEBB;
+font-weight: 400;
+}
 .name_logout {
   display: flex;
   flex-direction: column;
@@ -87,6 +91,7 @@
 .date {
   margin: 0;
 }
+
 
 .mobile,
 .mobile__header {

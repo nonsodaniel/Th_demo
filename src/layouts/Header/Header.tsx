@@ -82,7 +82,7 @@ const Header = () => {
         <NavLink exact className={`${styles.link} ${styles.cycle_days}`} to="#">
           <h5 className={styles.cycle}>Next Feedback Cycle:</h5>
           <p className={styles.date}>
-            Sept 2018 - <span className={styles.days}>4 days</span>
+            Sept 2018 - <span className={styles.days_count}>4 day</span>
           </p>
         </NavLink>
         <NavLink exact className={styles.profile} to="/" onClick={handleLogout}>
