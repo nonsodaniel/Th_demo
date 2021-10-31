@@ -5,15 +5,12 @@ import styles from './giveFeedback.module.css'
 import useUsersPendingReview from '../../hooks/useUsersPendingReview'
 
 const GiveFeedback = () => {
-
   const users = useUsersPendingReview()
 
   return (
     <MainLayout loggedIn>
       <div className={styles.wrapper}>
-        <h1>
-          Teams
-      </h1>
+        <h1>Teams</h1>
         {users ? (
           users.length > 0 && (
             <ul className={styles.users}>
@@ -26,13 +23,11 @@ const GiveFeedback = () => {
             </ul>
           )
         ) : (
-            <div>loading...</div>
-          )}
+          <div>loading...</div>
+        )}
       </div>
-  )
     </MainLayout>
   )
 }
-
 
 export default GiveFeedback

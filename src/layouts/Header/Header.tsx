@@ -25,7 +25,10 @@ const Header = () => {
 
   return (
     <div className={styles.header} data-testid="header">
-      <h1>Honesto</h1>
+      <NavLink exact to="/" className={styles.link}>
+        <h1>Honesto</h1>
+      </NavLink>
+
       <i
         onClick={() => setShowMenuOnMobile((show) => !show)}
         className={`fas fa-bars ${styles.mobileHambugger}`}

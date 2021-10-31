@@ -28,11 +28,11 @@ const GiveFeedback = () => {
           onGoBack={handleGoBack}
         />
       ) : (
-          <UserPendingFeedback
-            hasGivenFeedBack={hasGivenFeedBack}
-            setFeedbackUser={setFeedbackUser}
-          />
-        )}
+        <UserPendingFeedback
+          hasGivenFeedBack={hasGivenFeedBack}
+          setFeedbackUser={setFeedbackUser}
+        />
+      )}
     </MainLayout>
   )
 }
@@ -45,19 +45,18 @@ const UserPendingFeedback: React.FC<{
 
   return (
     <div className={styles.wrapper}>
-      {
-        users && (
-          <>
-            <h1>
-              {hasGivenFeedBack
-                ? 'Thank You for sharing your feedback'
-                : 'Share Feedback'}
-            </h1>
-            {hasGivenFeedBack && <p>continue to give feedback to other teams members</p>}
-
-          </>
-        )
-      }
+      {users && (
+        <>
+          <h1>
+            {hasGivenFeedBack
+              ? 'Thank You for sharing your feedback'
+              : 'Share Feedback'}
+          </h1>
+          {hasGivenFeedBack && (
+            <p>continue to give feedback to other teams members</p>
+          )}
+        </>
+      )}
 
       {users ? (
         users.length > 0 && (
@@ -78,8 +77,8 @@ const UserPendingFeedback: React.FC<{
           </ul>
         )
       ) : (
-          <GiveFeedbackLoader />
-        )}
+        <GiveFeedbackLoader />
+      )}
     </div>
   )
 }

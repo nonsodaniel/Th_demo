@@ -3,7 +3,7 @@
   overflow: hidden;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .content {
     min-height: 82vh;
   }

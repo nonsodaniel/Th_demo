@@ -41,6 +41,7 @@ const Home = () => {
               value={selectedUser}
               onChange={setUserForLogin}
               data-testid="select"
+              placeholder="Select user"
             />
           </div>
           <div>

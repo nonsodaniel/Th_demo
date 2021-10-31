@@ -18,7 +18,7 @@
   cursor: pointer;
 }
 
-.users li:hover{
+.users li:hover {
   background-color: var(--baseBorder);
 }
 
