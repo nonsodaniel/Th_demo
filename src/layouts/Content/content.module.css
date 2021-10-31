@@ -1,0 +1,10 @@
+.content {
+  padding: var(--baseVertSpacing) var(--baseHorzSpacing);
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .content {
+    min-height: 82vh;
+  }
+}
