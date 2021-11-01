@@ -46,7 +46,9 @@ const Header = () => {
           activeClassName={styles.active}
         >
           Share Feedback{' '}
-          <span className={styles.badge}>{users?.length && users.length}</span>
+          <span className={styles.badge}>
+            {users?.length ? users.length : 0}
+          </span>
         </NavLink>
         <NavLink
           exact
@@ -56,7 +58,7 @@ const Header = () => {
         >
           My Feedback{' '}
           <span className={styles.badge}>
-            {myFback?.length && myFback.length}
+            {myFback?.length ? myFback.length : 0}
           </span>
         </NavLink>
         <NavLink
@@ -67,7 +69,7 @@ const Header = () => {
         >
           Team Feedback{' '}
           <span className={styles.badge}>
-            {recFback?.length && recFback.length}
+            {recFback?.length ? recFback.length : 0}
           </span>
         </NavLink>
         <NavLink

@@ -39,6 +39,8 @@ As stated in the Readme of this project, Honesto is an application allowing peer
 
 - Ensured proper use of semantic HTML, image alt standard web practices to improve accessibility
 
+- **Note that the NOT FOUND(404) page currently can only be accessed when a user manually navigates to the page via the browser url textbox which causes page reload. Since data is not persisted, the NOT FOUND page has no access to any data thereby cause any navigation to redierct to the home root page**
+
 # Correction Regarding the video demo
 
 I just noticed I made a mistake at the ending part of the video. Just to clarify it, the **Teams** tabs lists the available users yet be given feedback and not all users/team members.

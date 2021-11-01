@@ -73,6 +73,7 @@ const ReviewFeedback = () => {
         </div>
       ) : (
         <Empty
+          topText=""
           header="No feedback to display 🔮"
           body="There is no feedback to display at this time - check back in a bit!"
         />
