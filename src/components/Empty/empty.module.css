@@ -8,6 +8,13 @@
 .empty_wrap h1 {
   font-weight: 500;
 }
+.empty_wrap .topText {
+  color: #59636e;
+}
+.empty_wrap button {
+  padding: .8rem 1rem;
+  font-weight: 500;
+}
 
 @media (max-width: 768px) {
   .empty_wrap {
