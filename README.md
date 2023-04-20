@@ -1,7 +1,7 @@
 
  [Live Link](https://th-demo.vercel.app/)
 
-# About my Task
+# About this work
 
 As stated in the Readme of this project, Honesto is an application allowing peers to leave feedback for other team members. The 3 major features of this application is to Gather Feedback, Display the Feedback given and Display the received Feedback.
 
@@ -72,12 +72,10 @@ I just noticed I made a mistake at the ending part of the video. Just to clarify
 
 
 
-# Honesto - Frontend Practical Exercise
+# Honesto 
 
-Honesto is an application allowing peers to leave feedback for other team members. For this exercise, you are to
-implement the required tasks below, along with any bonus tasks you also have time to complete.
+Honesto is an application allowing peers to leave feedback for other team members. 
 
-Designs for all tasks are [available in Figma](https://www.figma.com/file/P5D3PIAyzSfu3zOTjR2vnU/Practical-FE-Exercise-Honesto), please follow these designs for all tasks.
 
 The application has a few small changes from Figma to help in development of the following tasks:
 
