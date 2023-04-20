@@ -107,13 +107,3 @@ Besides giving feedback, a user can also see feedback received from their team (
 - Display the feedback received by the current user from other team members.
 - Include the case of when no feedback has been received.
 
-## Bonus Tasks (optional)
-
-Feel free to also implement any the following task if you are just getting warmed up:
-
-- [ ] Add Accessibility (A11y) testing and update components to comply
-- [ ] Create a dark theme for the project
-- [ ] Make the app more responsive on various devices
-- [ ] Update the app to have multiple feedback collections (per month) for each user
-- [ ] Write some tests (jest, cypress, react testing library, etc)
-- [ ] Add documentation about your tasks to help other developers understand decisions you made
