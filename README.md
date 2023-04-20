@@ -41,10 +41,6 @@ As stated in the Readme of this project, Honesto is an application allowing peer
 
 - **Note that the NOT FOUND(404) page currently can only be accessed when a user manually navigates to the page via the browser url textbox which causes page reload. Since data is not persisted, the NOT FOUND page has no access to any data thereby cause any navigation to redierct to the home root page**
 
-# Correction Regarding the video demo
-
-I just noticed I made a mistake at the ending part of the video. Just to clarify it, the **Teams** tabs lists the available users yet be given feedback and not all users/team members.
-
 
 # What could be done to improve the current implementation?
 
@@ -65,10 +61,7 @@ I just noticed I made a mistake at the ending part of the video. Just to clarify
 
 * In the early stage, I encountered some challenges working with EsLint Prettier rules without the prettier extension
 
-* Working with a short period of time because I couldn't start on the expected date due to some emergency situation. **Thankful for the time expansion.**
-
 * Some style properties in the figma design board wasn't accessible
-
 
 
 
@@ -89,7 +82,7 @@ A user can provide feedback on other team members (_"Share Feedback" in Figma_).
 - The questions to ask are already stored in the React context.
 - Create the user interface needed to ask and collect answers for each question for a selected team member.
 - Update the app to save the results of the feedback. _The saved results do not need to persist through a page refresh but the app should allow full navigation without data loss._
-- Your data model should support feedback from/to various users.
+- The data model supports feedback from/to various users.
 
 ## Task 2: Display Feedback Given
 
@@ -100,7 +93,7 @@ After having given feedback, a user can review all the feedback they have given 
 
 ## Task 3: Display Received Feedback
 
-Besides giving feedback, a user can also see feedback received from their team (_This does not exist in Figma other than the navigation item "Team Feedback", but you can model it after the layout of the previous task._).
+Besides giving feedback, a user can also see feedback received from their team (_This does not exist in Figma other than the navigation item "Team Feedback").
 
 - Display the feedback received by the current user from other team members.
 - Include the case of when no feedback has been received.
